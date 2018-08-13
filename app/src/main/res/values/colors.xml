@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9fafc7</color>
+    <color name="colorPrimaryDark">#7090bf</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <color name="resgis_backcolor">#d7d7d7</color>
+
+    <color name="login_background">#dfe5f2</color>
+    <color name="login">#a82783</color>
+
+    <color name="color">#59574f</color>
+
+    <color name="dash_board_bg">#dedcdc</color>
+
+    <color name="profile_bg">#ff7357</color>
+    <color name="member_bg">#02a14d</color>
+    <color name="branch_bg">#1d73bc</color>
+    <color name="offers_bg">#03a9f5</color>
+    <color name="available_bg">#cb24a7</color>
+    <color name="about_bg">#a37742</color>
+
+    <color name="pin_code_color">#acacac</color>
+
+
+
+
+    <color name="secondPage">#00838F</color>
+
+    <color name="text">#ffffff</color>
+    <color name="text_two">#94ffffff</color>
+    <color name="green">#940ce61f</color>
+
+
+</resources>

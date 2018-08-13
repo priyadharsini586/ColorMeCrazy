@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_login"
+    android:id="@+id/sclMainView"
+   android:gravity="center"
+    tools:context="com.nickteck.colormecrazy.activity.LoginActivityOld">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dialoge_height"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_corner"
+            android:orientation="vertical">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_height"
+                android:background="@color/login_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/login_background"
+                    android:text="@string/login_text"
+                    android:textAlignment="center"
+                    android:textColor="@color/login"
+                    android:fontFamily="@font/dokchamp"
+                    android:textSize="@dimen/login_text" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="@dimen/image_width"
+                android:layout_height="@dimen/image_height"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/colourme" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/enter_ph_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="7dp"
+                    android:text="Enter Your Phone Number : "
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/gisha"
+                    android:textSize="@dimen/phone_no" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/edit_text_rounded_corner">
+
+                    <EditText
+                        android:id="@+id/ph_no"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="8dp"
+                        android:background="#00000000"
+                        android:textSize="@dimen/enter_phone_no"
+                        android:inputType="number"
+                        android:fontFamily="@font/gisha"
+                        android:hint="Enter Your Phone Number :"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <Button
+                        android:id="@+id/sbmt_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/submit_button_rounded_corner"
+                        android:text="SUBMIT"
+                        android:textSize="@dimen/submit_text"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/gisha"
+                        android:textColor="@color/white" />
+
+                    <Button
+                        android:id="@+id/sbmt_act_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/submit_button_rounded_corner"
+                        android:text="SUBMIT"
+                        android:textSize="@dimen/submit_text"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/gisha"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

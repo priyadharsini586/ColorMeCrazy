@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ColorMeCrazy.iml" filepath="$PROJECT_DIR$/ColorMeCrazy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/evaporatelibrary/evaporatelibrary.iml" filepath="$PROJECT_DIR$/evaporatelibrary/evaporatelibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/htextview-base/htextview-base.iml" filepath="$PROJECT_DIR$/htextview-base/htextview-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/htextview_base/htextview_base.iml" filepath="$PROJECT_DIR$/htextview_base/htextview_base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mylibrary/mylibrary.iml" filepath="$PROJECT_DIR$/mylibrary/mylibrary.iml" />
+    </modules>
+  </component>
+</project>
